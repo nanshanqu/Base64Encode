@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044CC19E244AE1D400B87D72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CC19D244AE1D400B87D72 /* AppDelegate.m */; };
+		044CC1A1244AE1D400B87D72 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CC1A0244AE1D400B87D72 /* SceneDelegate.m */; };
+		044CC1A4244AE1D400B87D72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CC1A3244AE1D400B87D72 /* ViewController.m */; };
+		044CC1A7244AE1D400B87D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044CC1A5244AE1D400B87D72 /* Main.storyboard */; };
+		044CC1A9244AE1DA00B87D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044CC1A8244AE1DA00B87D72 /* Assets.xcassets */; };
+		044CC1AC244AE1DA00B87D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044CC1AA244AE1DA00B87D72 /* LaunchScreen.storyboard */; };
+		044CC1AF244AE1DA00B87D72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CC1AE244AE1DA00B87D72 /* main.m */; };
+		044CC1B9244AE1DA00B87D72 /* Base64__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CC1B8244AE1DA00B87D72 /* Base64__Tests.m */; };
+		044CC1C4244AE1DA00B87D72 /* Base64__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CC1C3244AE1DA00B87D72 /* Base64__UITests.m */; };
+		044CC1D4244AE26A00B87D72 /* ASBase64Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CC1D3244AE26A00B87D72 /* ASBase64Manager.m */; };
+		044CC1DA244AEB2600B87D72 /* menu_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 044CC1D9244AEB2600B87D72 /* menu_default.png */; };
+		044CC1DC244AF1C700B87D72 /* adsfkdv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 044CC1DB244AF1C700B87D72 /* adsfkdv.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044CC1B5244AE1DA00B87D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044CC191244AE1D400B87D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044CC198244AE1D400B87D72;
+			remoteInfo = "Base64加密";
+		};
+		044CC1C0244AE1DA00B87D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044CC191244AE1D400B87D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044CC198244AE1D400B87D72;
+			remoteInfo = "Base64加密";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044CC199244AE1D400B87D72 /* Base64加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Base64加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044CC19C244AE1D400B87D72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044CC19D244AE1D400B87D72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044CC19F244AE1D400B87D72 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		044CC1A0244AE1D400B87D72 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		044CC1A2244AE1D400B87D72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044CC1A3244AE1D400B87D72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044CC1A6244AE1D400B87D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044CC1A8244AE1DA00B87D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044CC1AB244AE1DA00B87D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044CC1AD244AE1DA00B87D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044CC1AE244AE1DA00B87D72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044CC1B4244AE1DA00B87D72 /* Base64加密Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Base64加密Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044CC1B8244AE1DA00B87D72 /* Base64__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base64__Tests.m; sourceTree = "<group>"; };
+		044CC1BA244AE1DA00B87D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044CC1BF244AE1DA00B87D72 /* Base64加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Base64加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044CC1C3244AE1DA00B87D72 /* Base64__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base64__UITests.m; sourceTree = "<group>"; };
+		044CC1C5244AE1DA00B87D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044CC1D2244AE26A00B87D72 /* ASBase64Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASBase64Manager.h; sourceTree = "<group>"; };
+		044CC1D3244AE26A00B87D72 /* ASBase64Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASBase64Manager.m; sourceTree = "<group>"; };
+		044CC1D9244AEB2600B87D72 /* menu_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_default.png; sourceTree = "<group>"; };
+		044CC1DB244AF1C700B87D72 /* adsfkdv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adsfkdv.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044CC196244AE1D400B87D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CC1B1244AE1DA00B87D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CC1BC244AE1DA00B87D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044CC190244AE1D400B87D72 = {
+			isa = PBXGroup;
+			children = (
+				044CC19B244AE1D400B87D72 /* Base64加密 */,
+				044CC1B7244AE1DA00B87D72 /* Base64加密Tests */,
+				044CC1C2244AE1DA00B87D72 /* Base64加密UITests */,
+				044CC19A244AE1D400B87D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044CC19A244AE1D400B87D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044CC199244AE1D400B87D72 /* Base64加密.app */,
+				044CC1B4244AE1DA00B87D72 /* Base64加密Tests.xctest */,
+				044CC1BF244AE1DA00B87D72 /* Base64加密UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044CC19B244AE1D400B87D72 /* Base64加密 */ = {
+			isa = PBXGroup;
+			children = (
+				044CC1D1244AE24A00B87D72 /* ASBase64Manager */,
+				044CC19C244AE1D400B87D72 /* AppDelegate.h */,
+				044CC19D244AE1D400B87D72 /* AppDelegate.m */,
+				044CC19F244AE1D400B87D72 /* SceneDelegate.h */,
+				044CC1A0244AE1D400B87D72 /* SceneDelegate.m */,
+				044CC1A2244AE1D400B87D72 /* ViewController.h */,
+				044CC1A3244AE1D400B87D72 /* ViewController.m */,
+				044CC1A5244AE1D400B87D72 /* Main.storyboard */,
+				044CC1A8244AE1DA00B87D72 /* Assets.xcassets */,
+				044CC1DB244AF1C700B87D72 /* adsfkdv.jpg */,
+				044CC1D9244AEB2600B87D72 /* menu_default.png */,
+				044CC1AA244AE1DA00B87D72 /* LaunchScreen.storyboard */,
+				044CC1AD244AE1DA00B87D72 /* Info.plist */,
+				044CC1AE244AE1DA00B87D72 /* main.m */,
+			);
+			path = "Base64加密";
+			sourceTree = "<group>";
+		};
+		044CC1B7244AE1DA00B87D72 /* Base64加密Tests */ = {
+			isa = PBXGroup;
+			children = (
+				044CC1B8244AE1DA00B87D72 /* Base64__Tests.m */,
+				044CC1BA244AE1DA00B87D72 /* Info.plist */,
+			);
+			path = "Base64加密Tests";
+			sourceTree = "<group>";
+		};
+		044CC1C2244AE1DA00B87D72 /* Base64加密UITests */ = {
+			isa = PBXGroup;
+			children = (
+				044CC1C3244AE1DA00B87D72 /* Base64__UITests.m */,
+				044CC1C5244AE1DA00B87D72 /* Info.plist */,
+			);
+			path = "Base64加密UITests";
+			sourceTree = "<group>";
+		};
+		044CC1D1244AE24A00B87D72 /* ASBase64Manager */ = {
+			isa = PBXGroup;
+			children = (
+				044CC1D2244AE26A00B87D72 /* ASBase64Manager.h */,
+				044CC1D3244AE26A00B87D72 /* ASBase64Manager.m */,
+			);
+			path = ASBase64Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044CC198244AE1D400B87D72 /* Base64加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044CC1C8244AE1DA00B87D72 /* Build configuration list for PBXNativeTarget "Base64加密" */;
+			buildPhases = (
+				044CC195244AE1D400B87D72 /* Sources */,
+				044CC196244AE1D400B87D72 /* Frameworks */,
+				044CC197244AE1D400B87D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Base64加密";
+			productName = "Base64加密";
+			productReference = 044CC199244AE1D400B87D72 /* Base64加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044CC1B3244AE1DA00B87D72 /* Base64加密Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044CC1CB244AE1DA00B87D72 /* Build configuration list for PBXNativeTarget "Base64加密Tests" */;
+			buildPhases = (
+				044CC1B0244AE1DA00B87D72 /* Sources */,
+				044CC1B1244AE1DA00B87D72 /* Frameworks */,
+				044CC1B2244AE1DA00B87D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044CC1B6244AE1DA00B87D72 /* PBXTargetDependency */,
+			);
+			name = "Base64加密Tests";
+			productName = "Base64加密Tests";
+			productReference = 044CC1B4244AE1DA00B87D72 /* Base64加密Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044CC1BE244AE1DA00B87D72 /* Base64加密UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044CC1CE244AE1DA00B87D72 /* Build configuration list for PBXNativeTarget "Base64加密UITests" */;
+			buildPhases = (
+				044CC1BB244AE1DA00B87D72 /* Sources */,
+				044CC1BC244AE1DA00B87D72 /* Frameworks */,
+				044CC1BD244AE1DA00B87D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044CC1C1244AE1DA00B87D72 /* PBXTargetDependency */,
+			);
+			name = "Base64加密UITests";
+			productName = "Base64加密UITests";
+			productReference = 044CC1BF244AE1DA00B87D72 /* Base64加密UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044CC191244AE1D400B87D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					044CC198244AE1D400B87D72 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					044CC1B3244AE1DA00B87D72 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 044CC198244AE1D400B87D72;
+					};
+					044CC1BE244AE1DA00B87D72 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 044CC198244AE1D400B87D72;
+					};
+				};
+			};
+			buildConfigurationList = 044CC194244AE1D400B87D72 /* Build configuration list for PBXProject "Base64加密" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044CC190244AE1D400B87D72;
+			productRefGroup = 044CC19A244AE1D400B87D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044CC198244AE1D400B87D72 /* Base64加密 */,
+				044CC1B3244AE1DA00B87D72 /* Base64加密Tests */,
+				044CC1BE244AE1DA00B87D72 /* Base64加密UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044CC197244AE1D400B87D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CC1DA244AEB2600B87D72 /* menu_default.png in Resources */,
+				044CC1DC244AF1C700B87D72 /* adsfkdv.jpg in Resources */,
+				044CC1AC244AE1DA00B87D72 /* LaunchScreen.storyboard in Resources */,
+				044CC1A9244AE1DA00B87D72 /* Assets.xcassets in Resources */,
+				044CC1A7244AE1D400B87D72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CC1B2244AE1DA00B87D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CC1BD244AE1DA00B87D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044CC195244AE1D400B87D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CC1A4244AE1D400B87D72 /* ViewController.m in Sources */,
+				044CC19E244AE1D400B87D72 /* AppDelegate.m in Sources */,
+				044CC1AF244AE1DA00B87D72 /* main.m in Sources */,
+				044CC1A1244AE1D400B87D72 /* SceneDelegate.m in Sources */,
+				044CC1D4244AE26A00B87D72 /* ASBase64Manager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CC1B0244AE1DA00B87D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CC1B9244AE1DA00B87D72 /* Base64__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CC1BB244AE1DA00B87D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CC1C4244AE1DA00B87D72 /* Base64__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044CC1B6244AE1DA00B87D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044CC198244AE1D400B87D72 /* Base64加密 */;
+			targetProxy = 044CC1B5244AE1DA00B87D72 /* PBXContainerItemProxy */;
+		};
+		044CC1C1244AE1DA00B87D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044CC198244AE1D400B87D72 /* Base64加密 */;
+			targetProxy = 044CC1C0244AE1DA00B87D72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044CC1A5244AE1D400B87D72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044CC1A6244AE1D400B87D72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044CC1AA244AE1DA00B87D72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044CC1AB244AE1DA00B87D72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044CC1C6244AE1DA00B87D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044CC1C7244AE1DA00B87D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044CC1C9244AE1DA00B87D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "Base64加密/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.Base64--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044CC1CA244AE1DA00B87D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "Base64加密/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.Base64--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		044CC1CC244AE1DA00B87D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "Base64加密Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.Base64--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Base64加密.app/Base64加密";
+			};
+			name = Debug;
+		};
+		044CC1CD244AE1DA00B87D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "Base64加密Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.Base64--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Base64加密.app/Base64加密";
+			};
+			name = Release;
+		};
+		044CC1CF244AE1DA00B87D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "Base64加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.Base64--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Base64加密";
+			};
+			name = Debug;
+		};
+		044CC1D0244AE1DA00B87D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "Base64加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.Base64--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Base64加密";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044CC194244AE1D400B87D72 /* Build configuration list for PBXProject "Base64加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044CC1C6244AE1DA00B87D72 /* Debug */,
+				044CC1C7244AE1DA00B87D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044CC1C8244AE1DA00B87D72 /* Build configuration list for PBXNativeTarget "Base64加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044CC1C9244AE1DA00B87D72 /* Debug */,
+				044CC1CA244AE1DA00B87D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044CC1CB244AE1DA00B87D72 /* Build configuration list for PBXNativeTarget "Base64加密Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044CC1CC244AE1DA00B87D72 /* Debug */,
+				044CC1CD244AE1DA00B87D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044CC1CE244AE1DA00B87D72 /* Build configuration list for PBXNativeTarget "Base64加密UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044CC1CF244AE1DA00B87D72 /* Debug */,
+				044CC1D0244AE1DA00B87D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044CC191244AE1D400B87D72 /* Project object */;
+}
